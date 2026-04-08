@@ -1,1 +1,191 @@
-# analytics-dashboard
+# Real-Time Analytics Dashboard
+
+## Overview
+
+An enterprise-grade full-stack real-time analytics platform built using **reactive programming**, **event-driven architecture**, and **cloud-ready deployment**.
+
+The system streams live data, stores historical metrics, provides predictive insights using machine learning, and visualizes everything through an interactive dashboard.
+
+---
+
+## Architecture
+
+### Data Flow
+
+```
+Data Source → WebSocket/Kafka → Spring WebFlux → MongoDB
+                                   ↓
+                              REST APIs
+                                   ↓
+                           React Dashboard
+                                   ↓
+                           ML Microservice
+```
+
+---
+
+## Tech Stack
+
+### 🔹 Backend
+
+* Spring Boot + WebFlux (Reactive Programming)
+* WebSocket (Real-time communication)
+* MongoDB (Reactive database)
+* JWT Authentication
+
+### 🔹 Frontend
+
+* React.js
+* Chart.js (Real-time & historical visualization)
+
+### 🔹 Machine Learning
+
+* FastAPI (Python microservice)
+
+### 🔹 Streaming (Optional Advanced)
+
+* Apache Kafka (event-driven architecture)
+
+### 🔹 DevOps & Cloud
+
+* Docker & Docker Compose
+* AWS (EC2 / ECS)
+* MongoDB Atlas
+
+---
+
+## Features
+
+### ⚡ Real-Time Streaming
+
+* WebSocket-based live data updates
+* Non-blocking reactive APIs using WebFlux
+
+### 📊 Analytics Dashboard
+
+* Live data visualization (charts)
+* Historical data tracking from MongoDB
+
+### 🤖 Machine Learning
+
+* Prediction API for trend analysis
+* Easily extendable for anomaly detection & forecasting
+
+### 🔐 Security
+
+* JWT-based authentication (token system)
+* Secure API endpoints
+
+### ☁️ Cloud Ready
+
+* Fully Dockerized architecture
+* Easy deployment on AWS or other cloud platforms
+
+---
+
+## 📸 Screenshots
+
+> *(Add your screenshots here for better impact)*
+
+* 📊 Dashboard UI
+* 📈 Live Chart
+* 🕒 Historical Data Chart
+
+---
+
+## 🚀 Installation & Setup
+
+### 1️⃣ Clone Repository
+
+```
+git clone https://github.com/your-username/analytics-dashboard.git
+cd analytics-dashboard
+```
+
+---
+
+### 2️⃣ Run Backend
+
+```
+cd analytics-backend
+mvn clean install
+mvn spring-boot:run
+```
+
+---
+
+### 3️⃣ Run Frontend
+
+```
+cd analytics-frontend
+npm install
+npm start
+```
+
+---
+
+### 4️⃣ Run ML Service
+
+```
+cd ml-models
+pip install fastapi uvicorn
+uvicorn main:app --reload
+```
+
+---
+
+### 5️⃣ Run with Docker (Recommended)
+
+```
+docker-compose up --build
+```
+
+---
+
+## 🔑 API Endpoints
+
+| Endpoint            | Method | Description               |
+| ------------------- | ------ | ------------------------- |
+| /api/metrics/stream | GET    | Real-time streaming (SSE) |
+| /ws/metrics         | WS     | WebSocket live data       |
+| /api/history        | GET    | Fetch historical data     |
+| /predict            | POST   | ML prediction API         |
+
+---
+
+## 📊 Key Highlights
+
+* ⚡ Reactive Programming with **Spring WebFlux**
+* 🔁 Real-time communication using **WebSocket**
+* 📦 Persistent storage using **MongoDB**
+* 📊 Interactive dashboards with **React + Chart.js**
+* 🤖 ML microservice integration
+* ☁️ Cloud-ready architecture with Docker
+
+---
+
+## 🎯 Use Cases
+
+* Business Intelligence Dashboards
+* System Monitoring Tools
+* User Behavior Analytics
+* Financial & Real-time Data Tracking
+
+---
+
+## 🧪 Future Enhancements
+
+* 🔍 Elasticsearch (advanced search)
+* ☸️ Kubernetes deployment
+* 📡 Kafka full integration
+* 👥 Role-based authentication
+* 📈 Advanced ML models (forecasting, anomaly detection)
+
+---
+
+## 👨‍💻 Author
+
+**Vishesh Gupta**
+
+* Aspiring Software Engineer
+* Skilled in Full Stack, Data Science & Cloud Technologies
