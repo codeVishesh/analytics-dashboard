@@ -83,24 +83,6 @@ Data Source → WebSocket/Kafka → Spring WebFlux → MongoDB
 
 ---
 
-### 4️⃣ Run ML Service
-
-```
-cd ml-models
-pip install fastapi uvicorn
-uvicorn main:app --reload
-```
-
----
-
-### 5️⃣ Run with Docker (Recommended)
-
-```
-docker-compose up --build
-```
-
----
-
 ## 🔑 API Endpoints
 
 | Endpoint            | Method | Description               |
