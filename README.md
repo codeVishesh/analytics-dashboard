@@ -83,47 +83,6 @@ Data Source → WebSocket/Kafka → Spring WebFlux → MongoDB
 
 ---
 
-## 📸 Screenshots
-
-> *(Add your screenshots here for better impact)*
-
-* 📊 Dashboard UI
-* 📈 Live Chart
-* 🕒 Historical Data Chart
-
----
-
-## 🚀 Installation & Setup
-
-### 1️⃣ Clone Repository
-
-```
-git clone https://github.com/your-username/analytics-dashboard.git
-cd analytics-dashboard
-```
-
----
-
-### 2️⃣ Run Backend
-
-```
-cd analytics-backend
-mvn clean install
-mvn spring-boot:run
-```
-
----
-
-### 3️⃣ Run Frontend
-
-```
-cd analytics-frontend
-npm install
-npm start
-```
-
----
-
 ### 4️⃣ Run ML Service
 
 ```
@@ -170,16 +129,6 @@ docker-compose up --build
 * System Monitoring Tools
 * User Behavior Analytics
 * Financial & Real-time Data Tracking
-
----
-
-## 🧪 Future Enhancements
-
-* 🔍 Elasticsearch (advanced search)
-* ☸️ Kubernetes deployment
-* 📡 Kafka full integration
-* 👥 Role-based authentication
-* 📈 Advanced ML models (forecasting, anomaly detection)
 
 ---
 
