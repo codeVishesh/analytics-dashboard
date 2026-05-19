@@ -117,6 +117,3 @@ Data Source → WebSocket/Kafka → Spring WebFlux → MongoDB
 ## 👨‍💻 Author
 
 **Vishesh Gupta**
-
-* Aspiring Software Engineer
-* Skilled in Full Stack, Data Science & Cloud Technologies
